@@ -37,8 +37,8 @@ have to be displayed accordingly.
 clone [search-hotels](https://github.com/addepalli8/search-hotels) repository from Github and install the necessary packages wrt the application and run the project
 
 ```bash
-git clone https://github.com/addepalli8/FindMyFreelancer.git
-cd FindMyFreelancer
+git clone https://github.com/addepalli8/search-hotels
+cd search-hotels
 npm i --save
 npm start
 ```
@@ -50,5 +50,4 @@ npm start
 - cross-browser compatibility.
 - device compatibility.
 
-## solved the problem in 5 Hours including design and functionalities
-- focused on functionalities over design. (No sufficient data to implement transitions/animations)
+## solved the problem and built the application in 1 day including design and functionalities
