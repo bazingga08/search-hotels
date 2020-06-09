@@ -1,0 +1,202 @@
+.app-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.top-bar {
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #cb202d;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.search-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-action-helper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.search-box-input {
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin: 10px 5px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+.search-box-button {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  margin: 10px 5px;
+  outline: none;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #cb202d;
+}
+
+.search-box-button:hover {
+  background: #d94148;
+}
+
+.main-page {
+  width: 100%;
+  height: calc(100% - 60px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 60px;
+}
+.modal {
+  position: fixed;
+  bottom: 50px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 9999;
+  background: #333333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-animation: slideInLeft 1s;
+  animation: slideInLeft 1s;
+  padding: 15px 25px;
+  border-radius: 2px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 10px solid #cb202d;
+}
+.restaurant-list {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+.landing-section {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 156px;
+  max-width: 1200px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    display: none;
+  }
+  .search-box-container {
+    margin-left: 5px;
+  }
+  .search-box-input {
+    padding-left: 5px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .search-box-input {
+    padding-left: 5px;
+    width: 155px;
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
