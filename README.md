@@ -1,6 +1,6 @@
 # search-hotels:
 
-search-hotels is a project where you are given the flexibility to search for the restaurant and play with cards by reordering the cards and deleting unnecessary cards from the searched list
+search-hotels is a project where you are given the flexibility to search for the restaurant and play with cards by reordering the cards and deleting unnecessary cards from the searched list either it can individual or Bulk
 
 ### Problem Statement and Problem Conditions
 - Create a search bar on top of the page with a search button adjacent to it.
